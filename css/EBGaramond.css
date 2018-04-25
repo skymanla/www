@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* EBGaramond fonts*/
+@font-face {
+	font-family: 'EBGaramond';
+	font-style: normal;
+	font-weight: 400;
+	src: url(font/EBGaramond-Regular.eot);
+	src: url(font/EBGaramond-Regular.eot?#iefix) format('embedded-opentype'),
+		url(font/EBGaramond-Regular.woff) format('woff'),
+		url(font/EBGaramond-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'EBGaramond';
+	font-style: normal;
+	font-weight: 500;
+	src: url(font/EBGaramond-Medium.eot);
+	src: url(font/EBGaramond-Medium.eot?#iefix) format('embedded-opentype'),
+		url(font/EBGaramond-Medium.woff) format('woff'),
+		url(font/EBGaramond-Medium.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'EBGaramond';
+	font-style: normal;
+	font-weight: 600;
+	src: url(font/EBGaramond-SemiBold.eot);
+	src: url(font/EBGaramond-SemiBold.eot?#iefix) format('embedded-opentype'),
+		url(font/EBGaramond-SemiBold.woff) format('woff'),
+		url(font/EBGaramond-SemiBold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'EBGaramond';
+	font-style: normal;
+	font-weight: 700;
+	src: url(font/EBGaramond-Bold.eot);
+	src: url(font/EBGaramond-Bold.eot?#iefix) format('embedded-opentype'),
+		url(font/EBGaramond-Bold.woff) format('woff'),
+		url(font/EBGaramond-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'EBGaramond';
+	font-style: normal;
+	font-weight: 800;
+	src: url(font/EBGaramond-ExtraBold.eot);
+	src: url(font/EBGaramond-ExtraBold.eot?#iefix) format('embedded-opentype'),
+		url(font/EBGaramond-ExtraBold.woff) format('woff'),
+		url(font/EBGaramond-ExtraBold.ttf) format('truetype');
+}
