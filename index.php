@@ -75,77 +75,23 @@ include("common/lib.php");
 				<div class="slide_wrap">
 					<button type="button" class="btn_prev"><i>뒤로가기</i></button>
 					<div class="single-item slides">
-						<div class="item sd1">
-							<a href="javascript:void(0);">
+						<?
+							$new_latest = newlist(8);
+							$div_num=1;
+							foreach($new_latest as $key=>$value){
+						?>
+						<div class="item sd<?=$div_num?>">
+							<a href="/bbs/view.php?idx=<?=$value['idx']?>">
 								<div>
-									<p>5 advanced Google<br />
-									AdWords features<br />
-									to enhance your PPC</p>
-									<span>Mar 14, 2018</span>
+									<p><?=$value['title']?></p>
+									<span><?=$value['dt_date']?></span>
 								</div>
 							</a>
 						</div>
-						<div class="item sd2">
-							<a href="javascript:void(0);">
-								<div>
-									<p>Social surpasses search<br />
-									in travel advertising<br />
-									for first time</p>
-									<span>Mar 12, 2018</span>
-								</div>
-							</a>
-						</div>
-						<div class="item sd3">
-							<a href="javascript:void(0);">
-								<div>
-									<p>Social surpasses search<br />
-									in travel advertising<br />
-									for first time</p>
-									<span>Mar 12, 2018</span>
-								</div>
-							</a>
-						</div>
-						<div class="item sd4">
-							<a href="javascript:void(0);">
-								<div>
-									<p>Everything you need to
-									know about the
-									Google Chrome
-									ad blocker</p>
-									<span>Feb 15, 2018</span>
-								</div>
-							</a>
-						</div>
-						<div class="item sd5">
-							<a href="javascript:void(0);">
-								<div>
-									<p>5 advanced Google<br />
-									AdWords features<br />
-									to enhance your PPC</p>
-									<span>Mar 14, 2018</span>
-								</div>
-							</a>
-						</div>
-						<div class="item sd6">
-							<a href="javascript:void(0);">
-								<div>
-									<p>Social surpasses search<br />
-									in travel advertising<br />
-									for first time</p>
-									<span>Mar 12, 2018</span>
-								</div>
-							</a>
-						</div>
-						<div class="item sd7">
-							<a href="javascript:void(0);">
-								<div>
-									<p>Social surpasses search<br />
-									in travel advertising<br />
-									for first time</p>
-									<span>Mar 12, 2018</span>
-								</div>
-							</a>
-						</div>
+						<? 
+								$div_num++;
+							} 
+						?>
 					</div>
 					<button type="button" class="btn_next"><i>앞으로가기</i></button>
 				</div>

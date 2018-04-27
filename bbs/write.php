@@ -17,7 +17,14 @@
 								<th><label for="select_10">Type</label></th>
 								<td>
 									<select name="cate" id="select_10" style="width:240px;">
-										<?=cate_load(); ?>
+										<?
+											$cate_arr = cate_load();
+											foreach($cate_arr as $key=>$v){
+										?>
+										<option value="<?=$v['cate']?>"><?=$v['c_name']?></option>
+										<?
+											}
+										?>
 									</select>
 								</td>
 							</tr>
@@ -45,7 +52,7 @@
 						</tbody>
 					</table>
 					<div class="w_bt_center">
-						<a href="/page/s4/s1.php" class="bt_1s">Cancel</a>
+						<a href="/bbs/list.php" class="bt_1s">Cancel</a>
 						<a href="javascript:void(0);" class="bt_2s"><input type="submit" value="Save" style="border:0;outline:0;background: transparent" /></a>
 					</div>
 				</div>

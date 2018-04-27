@@ -34,10 +34,10 @@
 					</div>
 				</li>
 				<li <?php if($w_a_num===3){ echo 'class="hover"'; } ?>>
-					<a href="/page/s4/s1.php" class="menu">News</a>
+					<a href="/bbs/list.php" class="menu">News</a>
 					<div>
 						<ul>
-							<li <?php if($w_a_num==3 && $w_b_num==0){ echo 'class="on"'; } ?>><a href="/page/s4/s1.php">News</a></li>
+							<li <?php if($w_a_num==3 && $w_b_num==0){ echo 'class="on"'; } ?>><a href="/bbs/list.php">News</a></li>
 						</ul>
 					</div>
 				</li>

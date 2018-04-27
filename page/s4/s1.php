@@ -44,7 +44,13 @@
 									$b_date = date("M d, Y", $dt_date);
 							?>
 							<tr>
-								<td><a href="<?=$b_link?>"><h3><?=$b_title?></h3><div><span><?=$b_date?></span><span><?=$b_cate?></span>
+								<td>
+									<a href="<?=$b_link?>">
+										<h3><?=$b_title?></h3>
+										<div>
+											<span><?=$b_date?></span><span>&nbsp;|&nbsp;<?=$b_cate?></span>
+										</div>
+									</a>
 								</td>
 							</tr>
 							<?

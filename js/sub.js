@@ -2,7 +2,7 @@ $(function(){
 	//subScrollHead();//scroll될때 header 높낮이 제어;
 	popSearch();//new카테고리에서 search눌럿을때;
 	inpLabel();//placeholder 대체
-	tabList('search_bar');
+	//tabList('search_bar');
 });
 
 function subScrollHead() {
